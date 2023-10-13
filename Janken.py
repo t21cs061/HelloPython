@@ -79,43 +79,6 @@ class Judge:
             print(finalWinner.get_name(),'の勝ちです')
         else:
             print('引き分けです')
-
-"""     
-def Judge(hand_a, hand_b):
-    if(hand_a == 0 ):
-        if(hand_b == 0):
-            print("引き分け")
-        elif(hand_b == 1):
-            print("勝ち")
-        elif(hand_b == 2):
-            print("負け")
-            
-    elif(hand_a == 1):
-        if(hand_b == 0):
-            print("負け")
-        elif(hand_b == 1):
-            print("引き分け")
-        elif(hand_b == 2):
-            print("勝ち")
-            
-    elif(hand_a == 2):
-        if(hand_b == 0):
-            print("勝ち")
-        elif(hand_b == 1):
-            print("負け")
-        elif(hand_b == 2):
-            print("引き分け")
-"""
-  
-"""          
-def ShowHand(hand):
-    if hand == 0:
-        print("グー")
-    elif hand == 1:
-        print("チョキ")
-    elif hand == 2:
-        print("パー")
-"""
     
 if __name__ == '__main__':
     judge = Judge()
